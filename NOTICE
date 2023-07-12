@@ -1,0 +1,8 @@
+NOTICES ABOUT kxc-melange-react-ppx LICENCING
+=============================================
+
+All source code except src/ppx/kxc_melange_react_ppx.ml is licensed under the
+Apache License Version 2.0. See LICENSE for more information.
+
+src/ppx/kxc_melange_react_ppx.ml is licensed under the terms of the GNU General
+Public License. See COPYING.LESSER for more information.
