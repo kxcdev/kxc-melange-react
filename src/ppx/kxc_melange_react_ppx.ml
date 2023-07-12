@@ -814,6 +814,13 @@ let jsxMapper =
             let namedArgListWithKeyAndRef =
               ((optional "key", None, pstr_loc, Some (keyType pstr_loc))
                :: List.map pluckLabelAndLoc propTypes) in
+            let namedArgListWithKeyAndRef =
+              ( optional "ref",
+                None,
+                pstr_loc,
+                None )
+              :: namedArgListWithKeyAndRef
+            in
             let externalPropsDecl =
               makePropsExternal fnName pstr_loc namedArgListWithKeyAndRef retPropsType in
 
