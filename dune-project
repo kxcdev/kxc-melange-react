@@ -1,7 +1,7 @@
 (lang dune 3.9)
 (using directory-targets 0.1)
 (using melange 0.1)
-(name kxc-melange-react-ppx)
+(name kxc-melange-react)
 
 (license Apache-2.0)
 (maintainers
@@ -12,12 +12,12 @@
   "KXC Members and Contributors")
 
 (source
- (github kxcdev/kxc-melange-react-ppx))
+ (github kxcdev/kxc-melange-react))
 
 (generate_opam_files true)
 (package
- (name kxc-melange-react-ppx)
- (synopsis "PPX to streamline melange projects that use React.js in the OCaml systax")
+ (name kxc-melange-react)
+ (synopsis "Utils and PPX to streamline melange projects that use React.js in the OCaml systax")
  (depends
   (melange (and (>= 1.0.0) (< 2.0.0)))
   (ppxlib (>= 0.26))
