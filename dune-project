@@ -20,6 +20,7 @@
  (synopsis "Utils and PPX to streamline melange projects that use React.js in the OCaml systax")
  (depends
   (melange (and (>= 1.0.0) (< 2.0.0)))
+  (reason-react (>= 0.11.0))
   (ppxlib (>= 0.26))
   (odoc (and :with-doc (>= 2.1.0)))
   (alcotest :with-test)

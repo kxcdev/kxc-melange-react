@@ -1,0 +1,8 @@
+(melange.emit
+ (target _output)
+ (promote (until-clean))
+ (libraries reason-react kxc-melange-react)
+ (modules :standard)
+ (preprocess
+  (pps kxc-melange-react.ppx))
+ (module_systems es6))

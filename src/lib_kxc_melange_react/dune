@@ -1,0 +1,7 @@
+(library
+ (name kxc_melange_react)
+ (public_name kxc-melange-react)
+ (modes melange)
+ (libraries kxclib.melange reason-react)
+ (preprocess
+  (pps kxc_melange_react_ppx)))

@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "bundle": "webpack --mode production --entry ./_output/example/chakra-simple/ReactApp.js",
+    "serve": "webpack serve --open --mode development --entry ./_output/example/chakra-simple/ReactApp.js"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "*",
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "framer-motion": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*"
+  }
+}
+
